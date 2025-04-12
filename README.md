@@ -32,6 +32,12 @@ Install the required Python modules using `pip`:
 ./.venv/bin/python -m pip install python-dotenv pandas seaborn matplotlib pygeocodio
 ```
 
+### 4. Update addresses.csv
+
+Replace `addresses.csv` with your own list of physical addresses.
+
+> **NOTE**: Geocodio can work with addresses that are missing certain components like street number, city, or state, as long as the remaining parts are present and consistent. See the [Address completion](https://www.geocod.io/guides/address-completion/#:~:text=You%20can%20submit%20full%20addresses,%2C%20state%2C%20zip%20and%20county.) page for more info.
+
 ## Example `.env` File
 
 Create a `.env` file in the root of your project directory and add the following content:
@@ -41,6 +47,8 @@ GEOCODIO_API_KEY=your_geocodio_api_key_here
 ```
 
 Replace `your_geocodio_api_key_here` with your actual Geocodio API key.
+
+> **TIP**: Don't have an API key? [Click here](https://www.geocod.io/free-geocoding/) to get one for free.
 
 ## Sample Output
 
