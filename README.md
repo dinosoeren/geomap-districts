@@ -1,6 +1,8 @@
-# Geomap Project
+# Geomap Congressional Districts
 
 This repository contains a Python-based project for geocoding and data visualization using the Geocodio API and popular Python libraries.
+
+Specifically, it converts physical addresses to congressional districts and visualizes them in a heatmap.
 
 ## Installation Instructions
 
